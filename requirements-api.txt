@@ -1,0 +1,5 @@
+# Only needed for the optional HTTP API (api.py). The Streamlit app does not need these.
+-r requirements.txt
+fastapi>=0.110.0
+uvicorn>=0.29.0
+python-multipart>=0.0.9
